@@ -142,7 +142,7 @@ resource "aws_autoscaling_group" "asg" {
 }
 
 resource "aws_route53_record" "app" {
-  zone_id = "Z0366464237Z7LZLZPKFA"
+  zone_id = "Z08201382DABPAK3PSL2Q"
   name    = "${var.component}-${var.env}.arjundevops.online"
   type    = "CNAME"
   ttl     = 30
